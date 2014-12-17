@@ -1,14 +1,14 @@
 package Perinci::Sub::Convert::default_lang;
 
+# DATE
+# VERSION
+
 use 5.010001;
 use strict;
 use warnings;
 
 use Exporter qw(import);
 our @EXPORT_OK = qw(convert_property_default_lang);
-
-# VERSION
-# DATE
 
 our %SPEC;
 
@@ -76,7 +76,7 @@ sub convert_property_default_lang {
 }
 
 1;
-# ABSTRACT: Convert default_lang property value in defhash
+# ABSTRACT:
 
 =head1 SYNOPSIS
 
